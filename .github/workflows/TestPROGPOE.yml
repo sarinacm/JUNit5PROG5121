@@ -39,7 +39,7 @@ jobs:
 
       #run tests and output report 
       - name: run tests and create report 
-        working-directory: /test/junit5prog5121poe
+        working-directory: ./test/junit5prog5121poe
         run: java -jar "junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class TestLogin --reports-dir ="reports"
 
     
