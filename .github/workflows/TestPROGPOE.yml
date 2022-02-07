@@ -31,6 +31,11 @@ jobs:
       # list contents or directory
       - name: List contents
         run: ls
+        
+        # list contents of test
+      - name: List contents
+        working-directory: ./test/junit5prog5121poe
+        run: ls
 
       # Compiles classes to test 
       - name: compile classes
