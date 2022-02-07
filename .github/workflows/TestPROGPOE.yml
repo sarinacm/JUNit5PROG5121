@@ -35,7 +35,7 @@ jobs:
       # Compiles classes to test 
       - name: compile classes
         working-directory: ./src/junit5prog5121poe
-        run: javac -cp "../../test/junit5prog5121poe/lib/junit-platform-console-standalone-1.6.0.jar" JUNit5Prog5121POE.java Login.java Tasks.java Messages.java Search.java "../../test/junit5prog5121poe/LoginTest.java" "../../test/junit5prog5121poe/MessagesTest.java" "../../test/junit5prog5121poe/TasksTest.java"
+        run: javac -cp "../../test/junit5prog5121poe/junit-platform-console-standalone-1.6.0.jar" JUNit5Prog5121POE.java Login.java Tasks.java Messages.java Search.java "../../test/junit5prog5121poe/LoginTest.java" "../../test/junit5prog5121poe/MessagesTest.java" "../../test/junit5prog5121poe/TasksTest.java"
 
       #run tests and output report 
       - name: run tests and create report 
